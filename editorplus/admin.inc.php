@@ -125,6 +125,7 @@ function ep_load_editor()
 
             case 'theCategoryPage':
                 $textarea[] = 'contentid';
+                $textarea[] = 'contenteditid';
                 $display = true;
                 break;
 
