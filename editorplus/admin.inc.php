@@ -116,6 +116,7 @@ function ep_load_editor()
         switch ($page['body_id']) {
             case 'theGuestBook':
                 $textarea[] = 'contentid';
+                $textarea[] = 'contenteditid';
                 $display = true;
                 break;
             case 'theContactPage':
@@ -131,6 +132,7 @@ function ep_load_editor()
 
             case 'thePicturePage':
                 $textarea[] = 'contentid';
+                $textarea[] = 'contenteditid';
                 $display = true;
                 break;
             default:
